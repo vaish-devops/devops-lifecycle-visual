@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevOps Lifecycle</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f2f5;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #2c3e50;
+    }
+
+    .cycle {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .stage {
+      background-color: #ffffff;
+      border: 2px solid #3498db;
+      border-radius: 50%;
+      width: 160px;
+      height: 160px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+      box-shadow: 2px 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .stage:hover {
+      transform: scale(1.05);
+    }
+
+    .stage h2 {
+      font-size: 18px;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    .stage p {
+      font-size: 13px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>DevOps Lifecycle</h1>
+  <p>This diagram explains the key stages of the DevOps lifecycle with short descriptions.</p>
+
+  <div class="cycle">
+    <div class="stage">
+      <h2>Plan</h2>
+      <p>Requirements are gathered and planning is done for development and delivery.</p>
+    </div>
+    <div class="stage">
+      <h2>Develop</h2>
+      <p>Code is written and managed using version control tools like Git.</p>
+    </div>
+    <div class="stage">
+      <h2>Build</h2>
+      <p>Code is compiled and converted into executable packages or builds.</p>
+    </div>
+    <div class="stage">
+      <h2>Test</h2>
+      <p>Automated and manual tests are run to ensure quality of the product.</p>
+    </div>
+    <div class="stage">
+      <h2>Release</h2>
+      <p>Approved builds are released into the production or staging environments.</p>
+    </div>
+    <div class="stage">
+      <h2>Deploy</h2>
+      <p>Code is deployed automatically or manually to live environments.</p>
+    </div>
+    <div class="stage">
+      <h2>Operate</h2>
+      <p>Operations teams manage infrastructure, servers, and uptime.</p>
+    </div>
+    <div class="stage">
+      <h2>Monitor</h2>
+      <p>Performance and user behavior are monitored continuously using tools.</p>
+    </div>
+  </div>
+</body>
+</html>
